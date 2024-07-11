@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "OmniStreamStarter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "ZLCloudPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/23da1e28c168496b8739cd2868f81be2"
+		}
+	],
+	"TargetPlatforms": [
+		"Windows"
+	]
+}
