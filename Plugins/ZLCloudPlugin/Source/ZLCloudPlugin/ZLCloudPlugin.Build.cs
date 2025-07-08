@@ -39,6 +39,8 @@ public class ZLCloudPlugin : ModuleRules
 			});
 		}
 
+		PublicIncludePaths.Add(Path.Combine(PluginDirectory, "Source/ThirdParty/CloudStream2/include"));
+
 		// NOTE: General rule is not to access the private folder of another module
 		PrivateIncludePaths.AddRange(new string[]
 		{
@@ -68,6 +70,7 @@ public class ZLCloudPlugin : ModuleRules
 				"AVEncoder",
 				"Projects",
 				"Networking",
+				"UMG",
 				"CloudStream2"
 		});
 		
@@ -92,9 +95,17 @@ public class ZLCloudPlugin : ModuleRules
 					"OutputLog",
 					"LiveCoding",
 					"UnrealEd",
+					"GraphEditor",
+					"KismetCompiler",
 					"BlueprintGraph",
-					"Portal"
+					"HTTP",
+					"FileUtilities",
+					"Portal",
+					"GameProjectGeneration",
+					"AssetRegistry"
 			});
+
+			PublicIncludePaths.Add(Path.Combine(PluginDirectory, "Source/ThirdParty/Portal/include"));
 		}
 
 

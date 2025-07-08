@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright ZeroLight ltd. All Rights Reserved.
 
 using System.IO;
 using UnrealBuildTool;
@@ -22,11 +22,11 @@ public class CloudStream2 : ModuleRules
 		}
         else if (Target.Platform == UnrealTargetPlatform.Mac)
         {
-			//TODO
+
         }
         else if (Target.Platform == UnrealTargetPlatform.Linux)
 		{
-			//TODO
+
 		}
 	}
 }
